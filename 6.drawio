@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Страница-1" id="eZneUaypyngaxeuxXfvp">
+    <mxGraphModel dx="1426" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Мебельный магазин : МБ&lt;br&gt;&lt;br&gt;ID 001&lt;br&gt;HomeFurniture Store&lt;br&gt;+7 (900) 111-22-33&lt;br&gt;г. Сыктывкар, ул. Ленина, д.10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="260" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Менеджер : Person&lt;br&gt;&lt;br&gt;ID 101&lt;br&gt;Лундин&lt;br&gt;Сергей&lt;br&gt;Александрович&lt;br&gt;+7 (900) 555-12-34" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="220" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Продавец : Person&lt;br&gt;&lt;br&gt;ID 102&lt;br&gt;Кармановский&lt;br&gt;Матвей&lt;br&gt;Викторович&lt;br&gt;+7 (900) 555-56-78" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="720" y="210" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Товар : Furniture&#xa;&#xa;ID 5001&#xa;Диван Лофт&#xa;Цена: 49999 руб.&#xa;Категория: Диваны" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="220" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Заказ : Order&#xa;&#xa;ID 9001&#xa;Диван Лофт&#xa;Кол-во: 1&#xa;Цена: 49999 руб." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="400" y="400" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Покупатель : Person&lt;br&gt;&lt;br&gt;ID 301&lt;br&gt;Носков&lt;br&gt;Руслан&lt;br&gt;Антонович&lt;br&gt;+7 (900) 999-88-77" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="180" y="540" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Курьер : Person&lt;br&gt;&lt;br&gt;ID 401&lt;br&gt;Дедов&lt;br&gt;Артем&lt;br&gt;Эдуардович&lt;br&gt;+7 (900) 333-22-11" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="660" y="550" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="endArrow=none;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="endArrow=none;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="endArrow=none;" parent="1" source="2" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" style="endArrow=block;" parent="1" source="4" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="endArrow=block;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" style="endArrow=block;" parent="1" source="6" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
